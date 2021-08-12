@@ -1,19 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar';
+import About from './components/About';
+import MyWork from './components/MyWork';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Greeting from './components/Greeting';
+import './styles/reset.css';
+import './styles/card.css';
+import './styles/animations.css';
+import './styles/style.css';
 
 function App() {
   return (
-    <>
-      <h1>Tomek's Portfolio Placeholder</h1>
-      <p>
-        Hey there! We are in the process of moving to a new hosting platform -
-        we'll be back soon!
-      </p>
-      <p>
-        In the meantime, you can visit my portfolio
-        <a href='https://tomekregulski.github.io/portfolio/'> here</a>
-      </p>
-    </>
+    <div>
+      <header>
+        <h1>TR</h1>
+        <Router>
+          <NavBar />
+        </Router>
+      </header>
+      <main>
+        <Greeting />
+        <MyWork />
+        <About />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
   );
 }
 

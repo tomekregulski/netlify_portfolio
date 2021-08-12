@@ -1,0 +1,72 @@
+import yup from './images/yup2.png';
+import parkShark from './images/park-demo.png';
+import iterable from './images/iterable-demo.png';
+import weather from './images/weather2.png';
+import fieldist from './images/fieldist_demo.png';
+
+const projects = [
+  {
+    id: 1,
+    name: 'fieldist',
+    image: fieldist,
+    details: [
+      'A platform for field marketing agencies to assist the management of both their field team and clients.',
+      'HTML/CSS, React, Bootstrap, Cloudinary',
+      'Node.js/Express, MySQL/Sequelize, JWT, Bcrypt',
+      'Google Maps/Places, Re-Charts, React Table, React Dropzone',
+    ],
+    github: 'https://github.com/tomekregulski/fieldist',
+    deployed: 'https://secret-wave-01417.herokuapp.com/',
+  },
+  {
+    id: 2,
+    name: 'Yup!',
+    image: yup,
+    details: [
+      'A platform developed for Yup! Realty to manage their inventory and allow agents to access information from the field.',
+      'HTML/CSS, JS, Bootstrap, Handlebars',
+      'Node.js/Express, MySQL/Sequelize, Cloudinary, Streamifier, Multer',
+      'Google Maps and NYC Open Data APIs',
+    ],
+    github: 'https://github.com/tomekregulski/yup-schlepp',
+    deployed: 'https://guarded-atoll-77888.herokuapp.com/login',
+  },
+  {
+    id: 3,
+    name: 'ParkSharkNYC',
+    image: parkShark,
+    details: [
+      'An app allowing NYC park lovers to find information on nearby parks and keep a journal of their experiences.',
+      'HTML/CSS, JS, Bulma',
+      'Leaflet.js and NYC Open Data APIs',
+    ],
+    github: 'https://github.com/tomekregulski/ParkSharkNYC',
+    deployed: 'https://tomekregulski.github.io/ParkSharkNYC',
+  },
+  {
+    id: 4,
+    name: 'iterable',
+    image: iterable,
+    details: [
+      'A simple blog site allowing users to sign up, post their own content, as well as engage with others.',
+      'HTML/CSS, JS, Bootstrap, Handlebars',
+      'Node.js/Express, MySQL/Sequelize',
+    ],
+    github: 'https://github.com/tomekregulski/iterable',
+    deployed: 'https://evening-depths-19981.herokuapp.com/',
+  },
+  {
+    id: 5,
+    name: 'Weather Dashboard',
+    image: weather,
+    details: [
+      'Progressive web app offerings a simple weather dashboard - search by city to see the current weather and 5-day forecast.',
+      'HTML/CSS, JS',
+      'Bootstrap, OpenWeather API',
+    ],
+    github: 'https://github.com/tomekregulski/weather-app',
+    deployed: 'https://tomekregulski.github.io/weather-app',
+  },
+];
+
+export default projects;
