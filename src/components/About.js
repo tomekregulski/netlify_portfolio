@@ -6,20 +6,20 @@ function About() {
       <h2>A little more about me...</h2>
       <p>
         My name is Tomek Regulski - I am a full-stack developer based in
-        Manhattan. In addition to recently completing a coding bootcamp at
-        Columbia University, I have 7+ years experience in CPG, and 10+ years
-        experience in the performing arts.
+        Manhattan. In addition to my progamming work, I have 7+ years experience
+        in CPG, and 10+ years experience in the performing arts.
       </p>
       <p>
-        I am passionate about using my newly-developed skills in responsive web
-        design, Javascript, SQL, and React to build apps that provide elegant
-        and intuitive solutions to the task at hand - whether it be business
-        operations, connecting with like-minded people, or discovering a new
-        park to explore.
+        I am passionate about building elegant and intuitive solutions to the
+        task at hand - whether it be optimizing workflow, connecting with an
+        audience, or discovering a new park to explore. Some of the tools that I
+        use include HTML, CSS, Javascript, SQL, and React.
       </p>
       <p>
-        When I'm not coding, there is a good chance that I am working on my
-        music, out for a stroll, or trying out a new recipe in the kitchen.
+        I am equally at home in front and back end design, and love taking the
+        journery from abstract idea to practical execution. If you have a
+        project in mind, or simply want to inquire further - please get in touch
+        through any of the methods below, and let's chat soon!
       </p>
     </section>
   );

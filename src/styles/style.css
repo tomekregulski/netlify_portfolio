@@ -111,7 +111,7 @@ nav {
 }
 
 /*--------------------------------------*/
-/*----------------About-----------------*/
+/*----------------Home-----------------*/
 #greeting {
   margin-top: 0.5em;
   min-height: 100vh;
@@ -131,7 +131,7 @@ nav {
   border-radius: 50%;
   margin: 200px auto 0;
   transition: all 0.2s ease-in;
-  animation: imgFade 10s;
+  animation: imgFade 9s;
 }
 
 #greeting-text {
@@ -148,7 +148,7 @@ nav {
 }
 
 #intro {
-  animation: moveInBottom 5s;
+  animation: moveInBottom 6s;
 }
 
 .btn {
