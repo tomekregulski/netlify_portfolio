@@ -1,7 +1,7 @@
 import yup from './images/yup2.png';
 import parkShark from './images/park-demo.png';
 import iterable from './images/iterable-demo.png';
-import weather from './images/weather2.png';
+import taylor from './images/taylor.png';
 import fieldist from './images/fieldist_demo.png';
 
 const projects = [
@@ -57,15 +57,14 @@ const projects = [
   },
   {
     id: 5,
-    name: 'Weather Dashboard',
-    image: weather,
+    name: 'Taylor Ackley',
+    image: taylor,
     details: [
-      'Progressive web app offerings a simple weather dashboard - search by city to see the current weather and 5-day forecast.',
-      'HTML/CSS, JS',
-      'Bootstrap, OpenWeather API',
+      'A live work in progress, the site currently displays information about Taylor Ackley and his current projects. It will be gradually expanded to feature more content.',
+      'React/Material-UI/Netlify',
     ],
-    github: 'https://github.com/tomekregulski/weather-app',
-    deployed: 'https://tomekregulski.github.io/weather-app',
+    github: 'https://github.com/tomekregulski/taylor_ackley_music',
+    deployed: 'https://suspicious-davinci-529b71.netlify.app/',
   },
 ];
 
