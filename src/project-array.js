@@ -60,7 +60,7 @@ const projects = [
     name: 'Taylor Ackley',
     image: taylor,
     details: [
-      'A live work in progress, the site currently displays information about Taylor Ackley and his current projects. It will be gradually expanded to feature more content.',
+      'Website built for the artist Taylor Ackley.',
       'React/Material-UI/Netlify',
     ],
     github: 'https://github.com/tomekregulski/taylor_ackley_music',
