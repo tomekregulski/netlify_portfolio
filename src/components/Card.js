@@ -1,19 +1,25 @@
-import React from 'react';
-import image from '../images/fieldist_demo.png';
+import React, { useState } from 'react';
+import ProjectModal from './ProjectModal';
+
 import '../styles/projectCard.css';
 
 const Card = (props) => {
+  const [show, setShow] = useState(false);
+
   return (
-    <div className='card-container'>
-      <img src={props.image} alt='image' className='workImage' />
-      <div className='cardContent'>
-        <div className='projectName'>{props.name}</div>
-        <ul>
-          <li>{props.details}</li>
-          <li>{props.topTech}</li>
-        </ul>
+    <>
+      <ProjectModal onClose={() => setShow(false)} show={show} props={props} />
+      <div className='card-container' onClick={() => setShow(true)}>
+        <img src={props.image} alt='image' className='workImage' />
+        <div className='cardContent'>
+          <div className='projectName'>{props.name}</div>
+          <ul>
+            <li>{props.details}</li>
+            <li>{props.topTech}</li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

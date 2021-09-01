@@ -23,6 +23,7 @@ function App() {
       </header>
       <main>
         <Greeting />
+        {/* <Work /> */}
         <MyWork />
         <About />
         <Contact />

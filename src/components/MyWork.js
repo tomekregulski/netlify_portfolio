@@ -1,8 +1,9 @@
 import { React, Component } from 'react';
-import Project from './Project';
+// import Project from './Project';
 // import projects from "../projects";
 import projectArray from '../project-array';
 import Card from './Card';
+import ProjectModal from './ProjectModal';
 class MyWork extends Component {
   state = {
     projects: {},
@@ -38,7 +39,18 @@ class MyWork extends Component {
       : null;
 
   render() {
-    return <section id='work'>{this.mapProjects()}</section>;
+    return (
+      <>
+        {/* <button onClick={() => this.setState({ show: true })}>
+          Show Modal
+        </button> */}
+        {/* <ProjectModal
+          onClose={() => this.setState({ show: false })}
+          show={this.state.show}
+        /> */}
+        <section id='work'>{this.mapProjects()}</section>
+      </>
+    );
   }
 }
 
