@@ -1,9 +1,10 @@
-import './App.css';
 import NavBar from './components/NavBar';
 import About from './components/About';
 import MyWork from './components/MyWork';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+// import Card from './components/Card';
+import Work from './components/Work';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Greeting from './components/Greeting';
 import './styles/reset.css';
