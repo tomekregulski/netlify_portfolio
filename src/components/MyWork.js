@@ -10,7 +10,6 @@ class MyWork extends Component {
   };
 
   componentDidMount() {
-    console.log(projectArray);
     this.setState({
       projects: projectArray,
     });
@@ -27,13 +26,14 @@ class MyWork extends Component {
           //     deployed={project.deployed}
           //   />
           <Card
+            className='project-card'
             key={project.id}
             name={project.name}
             image={project.image}
-            details={project.details[0]}
-            topTech={project.details[1]}
-            // github={project.github}
-            // deployed={project.deployed}
+            description={project.description}
+            technology={project.technology}
+            github={project.github}
+            deployed={project.deployed}
           />
         ))
       : null;

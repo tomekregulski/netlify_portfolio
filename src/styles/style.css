@@ -56,13 +56,13 @@ h3 {
   position: relative;
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
   align-items: flex-end;
   text-align: right;
 }
 
 h1 {
   display: block;
-  float: left;
   font-size: 1.5rem;
   font-weight: 200;
   color: var(--light-blue);
@@ -85,7 +85,7 @@ nav {
 }
 
 #menu-item {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   overflow: hidden;
@@ -99,10 +99,6 @@ nav {
   padding: 5px 0;
   font-size: 0.65rem;
   transition: all 0.4s;
-}
-
-#myWork {
-  display: none;
 }
 
 #menu-item li:hover {
@@ -195,13 +191,14 @@ nav {
 /*----------------About-----------------*/
 
 #about-me {
+  border-top: solid 0.25px var(--light-blue);
   border-bottom: solid 0.25px var(--light-blue);
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  padding-top: 50px;
   margin-bottom: 20px;
   min-height: 100vh;
 }
@@ -273,12 +270,15 @@ footer {
   }
 
   #menu-item {
+    display: flex;
     flex-direction: row;
     align-items: flex-end;
+    margin-left: 15px;
   }
 
   #menu-item li {
     padding-left: 10px;
+    font-size: 0.5rem;
   }
 
   #about-me h2 {
@@ -298,13 +298,9 @@ footer {
     margin: 0 auto;
   }
 
-  #myWork {
-    display: block;
-  }
-
   #menu-item li {
-    font-size: 0.6em;
-    margin-left: 15px;
+    padding-left: 40px;
+    font-size: 0.8rem;
   }
 }
 
@@ -317,5 +313,11 @@ footer {
   #about-me p {
     margin: 0 15% 5vh;
     font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #work {
+    margin: 5% 5%;
   }
 }

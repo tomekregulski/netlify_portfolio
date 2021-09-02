@@ -1,3 +1,5 @@
+import React, { useState } from 'react';
+
 import NavBar from './components/NavBar';
 import About from './components/About';
 import MyWork from './components/MyWork';
@@ -13,12 +15,14 @@ import './styles/animations.css';
 import './styles/style.css';
 
 function App() {
+  const [open, setOpen] = useState(false);
+
   return (
     <div>
       <header>
         <h1>TR</h1>
         <Router>
-          <NavBar />
+          <NavBar open={open} setOpen={setOpen} />
         </Router>
       </header>
       <main>
