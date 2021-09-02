@@ -1,21 +1,23 @@
 .card-container {
-  /* display: inline; */
   max-width: 500px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  /* padding: 20px; */
-  /* border: solid 1px black; */
+  margin: 50px 10px;
   border-radius: 10px;
   box-shadow: 2px 2px 2px grey;
+  transition: 0.5s;
+}
+
+.card-container:hover {
+  transform: scale(1.03);
+  transition: 0.5s;
 }
 
 .workImage {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 0;
 }
 
 .cardContent {
-  padding-left: 25px;
+  padding: 0 15px;
 }
 
 .projectName {
@@ -23,13 +25,72 @@
   margin-top: 10px;
   color: rgb(45, 179, 244);
   font-weight: bold;
+  border-bottom: 1px solid #eee;
 }
 
-.cardContent li {
+.cardContent p {
   font-size: 18px;
   margin-top: 15px;
+  padding-bottom: 30px;
 }
 
-.cardContent ul {
-  padding-bottom: 10px;
+/* Modal */
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.modal-img {
+  width: 100%;
+}
+
+.modal-content {
+  width: 500px;
+  background-color: #fff;
+  border-radius: 5%;
+}
+
+.modal-header,
+.modal-footer {
+  padding: 10px;
+}
+
+.modal-title {
+  margin: 0;
+  color: var(--light-blue);
+}
+
+.modal-body {
+  padding: 10px;
+}
+
+.modal-item {
+  padding: 10px;
+  border-top: 1px solid #eee;
+  font-size: 0.65rem;
+}
+
+.modal-item a:visited {
+  color: var(--light-blue);
+}
+
+.modal-links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.65rem !important;
+}
+
+@media screen and (min-width: 1000px) {
+  .card-container {
+    margin: 20px 40px;
+  }
 }

@@ -9,24 +9,31 @@ const Work = () => {
   useEffect(() => {
     setProjects(projectArray);
     console.log(projectArray);
-  });
+  }, []);
 
   function mapProjects() {
-    projects.map((project) => (
-      <Card
-        key={project.id}
-        // name={project.name}
-        // image={project.image}
-        // details={project.details[0]}
-        // github={project.github}
-        // deployed={project.deployed}
-      />
-    ));
+    if (projects.length) {
+      console.log(projects);
+      projects.map((project) =>
+        console.log(project.name)
+        // <Card
+        //   key={project.id}
+        //   name={project.name}
+        //   image={project.image}
+        //   // details={project.details[0]}
+        //   // github={project.github}
+        //   // deployed={project.deployed}
+        // />
+        // <div>
+        //   <p>{project.name}</p>
+        // </div>
+      );
+    }
   }
 
   return (
     <>
-      <section id='work2'>{mapProjects}</section>
+      <section id='work2'>{mapProjects()}</section>
     </>
   );
 };
