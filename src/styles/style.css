@@ -319,6 +319,11 @@ footer {
     padding-bottom: 60px;
   }
 
+  #work h2 {
+    margin-bottom: 4vh;
+    font-size: 1.7rem;
+  }
+
   #about-me h2 {
     margin-bottom: 8vh;
     font-size: 1.7rem;
