@@ -181,6 +181,14 @@ nav {
 /*----------------Work-----------------*/
 
 #work {
+  padding-top: 10px;
+}
+
+#work h2 {
+  margin-bottom: 30px;
+}
+
+#workCards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

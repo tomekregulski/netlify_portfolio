@@ -13,10 +13,7 @@ const Card = (props) => {
         <img src={props.image} alt='image' className='workImage' />
         <div className='cardContent'>
           <div className='projectName'>{props.name}</div>
-          {/* <ul> */}
           <p>{props.description}</p>
-          {/* <li>{props.topTech}</li> */}
-          {/* </ul> */}
         </div>
       </div>
     </>
