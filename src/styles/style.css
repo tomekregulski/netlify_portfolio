@@ -181,6 +181,15 @@ nav {
 /*----------------Work-----------------*/
 
 #work {
+  padding-top: 20px;
+}
+
+#work h2 {
+  /* margin-bottom: 20px; */
+  font-size: 1.1rem;
+}
+
+#workCards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -198,13 +207,14 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 20px;
   margin-bottom: 20px;
   min-height: 100vh;
 }
 
 #about-me h2 {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-size: 1.1rem;
 }
 
@@ -305,6 +315,10 @@ footer {
 }
 
 @media screen and (min-width: 1000px) {
+  #about-me {
+    padding-bottom: 60px;
+  }
+
   #about-me h2 {
     margin-bottom: 8vh;
     font-size: 1.7rem;
@@ -317,7 +331,7 @@ footer {
 }
 
 @media screen and (min-width: 1000px) {
-  #work {
-    margin: 5% 5%;
+  #workCards {
+    margin: 20px 5% 80px;
   }
 }
