@@ -6,11 +6,6 @@
   transition: 0.5s;
 }
 
-.card-container:hover {
-  transform: scale(1.03);
-  transition: 0.5s;
-}
-
 .workImage {
   width: 100%;
   border-radius: 10px 10px 0 0;
@@ -28,65 +23,25 @@
   border-bottom: 1px solid #eee;
 }
 
+.projectDescription {
+  padding-bottom: 0 !important;
+}
+
 .cardContent p {
   font-size: 18px;
   margin-top: 15px;
   padding-bottom: 30px;
 }
 
-/* Modal */
-
-.modal {
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.75);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 10;
-}
-
-.modal-img {
-  width: 100%;
-}
-
-.modal-content {
-  width: 500px;
-  background-color: #fff;
-  border-radius: 5%;
-}
-
-.modal-header,
-.modal-footer {
-  padding: 10px;
-}
-
-.modal-title {
-  margin: 0;
-  color: var(--light-blue);
-}
-
-.modal-body {
-  padding: 10px;
-}
-
-.modal-item {
-  padding: 10px;
-  border-top: 1px solid #eee;
-  font-size: 0.65rem;
-}
-
-.modal-item a:visited {
-  color: var(--light-blue);
-}
-
-.modal-links {
+.projectLinks {
+  padding-bottom: 10px !important;
   display: flex;
   justify-content: space-between;
   font-size: 0.65rem !important;
+}
+
+.projectLinks a:visited {
+  color: var(--light-blue);
 }
 
 @media screen and (min-width: 1000px) {
