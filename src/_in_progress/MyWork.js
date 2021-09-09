@@ -1,5 +1,5 @@
 import { React, Component } from 'react';
-import projectArray from '../project-array';
+import projectArray from '../src/project-array';
 import Card from './Card';
 class MyWork extends Component {
   state = {
