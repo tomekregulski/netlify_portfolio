@@ -1,18 +1,37 @@
 import yup from './images/yup2.png';
 import parkShark from './images/park-demo.png';
-import iterable from './images/iterable-demo.png';
 import taylor from './images/taylor.png';
 import fieldist from './images/fieldist_demo.png';
+import intelly from './images/intelly.png';
 
 const projects = [
   {
     id: 1,
-    name: 'fieldist',
+    name: 'Intelly',
+    image: intelly,
+    description:
+      'A retail data dashboard for food and beverage brands to track performance across categories and regions.',
+    technology: [
+      ['React, ', 'Node.js/Express, ', 'MySQL', 'Material-UI'],
+      // ['Bootstrap, ', 'Cloudinary, ', 'JWT, ', 'Bcrypt'],
+      // [
+      //   'Google Maps/Places APIs, ',
+      //   'Re-Charts, ',
+      //   'React Table, ',
+      //   'React Dropzone',
+      // ],
+    ],
+    github: 'https://github.com/tomekregulski/intelly',
+    deployed: 'https://happy-saha-7828d3.netlify.app/',
+  },
+  {
+    id: 2,
+    name: 'Fieldist',
     image: fieldist,
     description:
       'A platform for field marketing agencies to assist the management of both their field team and clients.',
     technology: [
-      ['HTML/CSS, ', 'React, ', 'Node.js/Express, ', 'MySQL'],
+      ['React, ', 'Node.js/Express, ', 'MySQL', 'Bootstrap'],
       // ['Bootstrap, ', 'Cloudinary, ', 'JWT, ', 'Bcrypt'],
       // [
       //   'Google Maps/Places APIs, ',
@@ -25,7 +44,7 @@ const projects = [
     deployed: 'https://secret-wave-01417.herokuapp.com/',
   },
   {
-    id: 2,
+    id: 3,
     name: 'Yup!',
     image: yup,
     description:
@@ -39,7 +58,7 @@ const projects = [
     deployed: 'https://guarded-atoll-77888.herokuapp.com/login',
   },
   {
-    id: 3,
+    id: 4,
     name: 'ParkSharkNYC',
     image: parkShark,
     description:

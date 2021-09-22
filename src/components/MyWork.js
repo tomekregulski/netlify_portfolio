@@ -32,7 +32,7 @@ class MyWork extends Component {
     return (
       <>
         <section id='work'>
-          <h2>Featured Projects</h2>
+          <h2 style={{ marginTop: '30px' }}>Featured Projects</h2>
           <div id='workCards'>{this.mapProjects()}</div>
         </section>
       </>
