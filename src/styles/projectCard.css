@@ -1,14 +1,15 @@
 .card-container {
-  max-width: 500px;
-  margin: 50px 10px;
-  border-radius: 10px;
-  box-shadow: 2px 2px 2px grey;
+  max-width: 400px;
+  margin: 25px 10px;
+  /* border-radius: 10px; */
+  border: solid 0.5px rgba(164, 164, 164, 0.146);
+  box-shadow: 2px 2px 2px rgba(164, 164, 164, 0.146);
   transition: 0.5s;
 }
 
 .workImage {
   width: 100%;
-  border-radius: 10px 10px 0 0;
+  /* border-radius: 10px 10px 0 0; */
 }
 
 .cardContent {
@@ -19,8 +20,18 @@
   font-size: 22px;
   margin-top: 10px;
   color: rgb(45, 179, 244);
-  font-weight: bold;
   border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
+
+#iconContainer {
+  border-bottom: solid 0.5px rgba(164, 164, 164, 0.146);
+}
+
+.cardIcons {
+  margin-right: 5px;
+  color: rgb(45, 179, 244);
 }
 
 .projectDescription {
@@ -29,16 +40,22 @@
 }
 
 .cardContent p {
-  font-size: 18px;
+  font-size: 14px;
   margin-top: 15px;
   padding-bottom: 30px;
 }
 
 .projectLinks {
   padding-bottom: 10px !important;
+
   display: flex;
   justify-content: space-between;
   font-size: 0.65rem !important;
+}
+
+.projectLinks a {
+  color: var(--light-blue);
+  font-size: 20px;
 }
 
 .projectLinks a:visited {
@@ -47,6 +64,6 @@
 
 @media screen and (min-width: 1000px) {
   .card-container {
-    margin: 20px 40px;
+    margin: 40px 40px 40px 0;
   }
 }

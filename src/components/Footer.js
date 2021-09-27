@@ -5,7 +5,10 @@ function Footer() {
     <footer>
       <div id='copyright'>
         <span>&copy; Copyright 2021</span>
-        <span>Tomek Regulski | tomek.regulski@gmail.com</span>
+        <span>
+          Tomek Regulski <span id='footerPipe'>|</span>
+        </span>
+        <span>tomek.regulski@gmail.com</span>
       </div>
     </footer>
   );
