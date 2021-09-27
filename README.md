@@ -1,6 +1,6 @@
 # netlify_portfolio
 
-![screenshot-top-of-page](assets/images/demo1.png)
+![screenshot-top-of-page](/src/images/demo1.png)
 
 # Description
 
