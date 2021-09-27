@@ -154,18 +154,18 @@ nav {
   text-decoration: none;
   display: inline-block;
   padding: 0.5rem 1.2rem 0.3rem;
-  border-bottom: solid 0.5px var(--gray-text);
-  transition: all 0.4s;
+  border-bottom: solid 0.01rem rgba(45, 178, 244, 0.447);
+  transition: all 0.8s;
   position: relative;
   margin: 70px auto;
   font-size: 0.7rem;
-  color: var(--light-blue);
+  color: black;
   animation: moveInBottom 8s;
 }
 
 .btn:hover {
-  /* transform: translateY(-3px); */
-  box-shadow: 0 0.15rem 0.3rem rgba(75, 75, 75, 0.098);
+  color: var(--light-blue);
+  box-shadow: 0 0.03rem 0.05rem var(--light-blue);
 }
 
 .btn:active {
@@ -330,6 +330,10 @@ footer {
   #menu-item li {
     padding-left: 40px;
     font-size: 0.8rem;
+  }
+
+  #profile {
+    margin-top: 200px;
   }
 }
 
