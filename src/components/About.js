@@ -13,10 +13,10 @@ function About() {
       <p>
         I am passionate about building elegant and intuitive solutions to the
         task at hand - whether it be optimizing workflow, connecting with an
-        audience, or exploring a hobby. I comfortable working across the entire
-        stack, and love taking the journey from abstract idea to practical
-        execution. If you have a project in mind, or simply want to inquire
-        further - get in touch and let's chat soon!
+        audience, or exploring a hobby. I am proficient across the stack, and
+        love taking the journey from abstract idea to practical execution. If
+        you have a project in mind, or simply want to inquire further - get in
+        touch and let's chat soon!
       </p>
       <h3 id='tools'>Tools that I use</h3>
       <p>
