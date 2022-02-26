@@ -2,7 +2,6 @@ import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
 import MobileMenu from './MobileMenu';
 import MenuToggle from './MenuToggle';
-import resume from '../images/tomek_regulski_resume.pdf';
 
 function NavBar(props) {
   return (
@@ -18,11 +17,6 @@ function NavBar(props) {
         </li>
         <li>
           <Link to='#contact-me'>Contact</Link>
-        </li>
-        <li>
-          <a href={resume} download='tomek_regulski_resume'>
-            Resume
-          </a>
         </li>
       </ul>
       <MenuToggle open={props.open} setOpen={props.setOpen} />
